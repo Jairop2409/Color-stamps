@@ -7,9 +7,10 @@ import turtle
 
 thea = turtle.Turtle()
 thea.shape('turtle')
-user_hex = input('Enter a  hex color( include the #) : ')
-thea.color(user_hex)
 
-for i in range(4):
-  thea.forward(20)
-  thea.stamp()
+
+for i in range(5):
+ user_hex = input('Enter a  hex color( include the #) : ')
+ thea.color(user_hex)
+ thea.forward(20)
+ thea.stamp()
